@@ -11,7 +11,6 @@
 //  100% of the numbers are less than or equal to 22
 List<int> percentile(List<int> numbers) {
   numbers.sort();
-  print(numbers);
   List<int> percentage = [25,50,75,90,95,99,100];
   int lengthOfList = numbers.length;
   List<int> testList = [];
